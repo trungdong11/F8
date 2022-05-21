@@ -1,0 +1,100 @@
+/* PC */
+@media(min-width: 1024px) {
+
+}
+
+/* Tablet & mobile */
+@media(max-width: 1023px)
+{
+    #contact .form-control {
+        padding: 15px;
+    }
+
+    #contact .form-submit {
+        padding: 11px 12px;
+    }
+
+    #nav .subnav a {
+        padding: 1px 12px;
+    }
+
+    .tickets-button {
+        padding: 10px 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* tablet */
+@media(min-width: 740px) and (max-width:1023px) {
+    .tablet{
+
+    }
+}
+
+/* phone */
+@media(max-width: 740px) {
+    .s-mt_8 {
+        margin-top: 8px;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #content .member-name {
+        margin-top: 16px;
+    }
+
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 15px;
+    }
+
+    #contact .contact-form {
+        margin-top: 16px;
+    }
+
+    
+}
